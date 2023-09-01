@@ -1,4 +1,4 @@
-# Exchange Online DKIM rotarion automation for all domains.
+# Exchange Online DKIM Key rotation automation for all domains.
 
 Rotate your DKIM keys automatically for all domains that have configured DKIM within Exchange Online.
 This mini script checks the domains in Exchange Online and sees if DKIM is enabled. If DKIM is on then it rotates the DKIM Keys via Rotate-DkimSigningConfig.
