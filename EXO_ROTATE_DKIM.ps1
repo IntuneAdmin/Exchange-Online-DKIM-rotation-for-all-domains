@@ -1,3 +1,8 @@
+# Exchang Online DKIM Rotation For All Domains
+# Version 1.0
+
+# You need a managed Identity to connect with Exchange Online.
+
 $organization = "<DOMAINNAME>.onmicrosoft.com"
 Connect-ExchangeOnline -ManagedIdentity -Organization $organization
 
